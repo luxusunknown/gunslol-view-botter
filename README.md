@@ -1,5 +1,14 @@
 # guns.lol View Botter
 
+## Purchase Source Code
+
+Source code is $400 (negotiable).
+
+To buy, DM on Discord: `@luxus.unknown` or `@kryptoburg`
+Or on Telegram: `@kryptomoc`
+
+---
+
 Fast, automated view botter for guns.lol profiles. Solves challenges server-side with zero credit waste.
 
 > **Note:** Around 3-5% of views may fail to deliver due to network variance and proxy rotation. It is recommended to set `multiplier` to `1.05` or `1.10` in `config.json` to automatically overshoot and guarantee your target count.
@@ -51,11 +60,11 @@ Download from https://nodejs.org (LTS) if not installed.
 
 ### Capsolver (recommended)
 1. Go to https://capsolver.com
-2. Sign up and add balance
+2. Sign up and add balance ($2-5 is plenty to start)
 3. Go to Dashboard and copy your API key
 4. Paste it into `config.json` under `capsolver_api_key`
 
-Pricing: ~$1.20 per 1,000 solves. Average solve time: 3-7 seconds.
+Pricing: ~$1.20 per 1,000 solves. Average solve time: 5-10 seconds.
 
 ### SolveCaptcha (alternative)
 1. Go to https://solvecaptcha.com
@@ -63,7 +72,7 @@ Pricing: ~$1.20 per 1,000 solves. Average solve time: 3-7 seconds.
 3. Copy your API key into `config.json` under `solvecaptcha_api_key`
 4. Set `"solver": "solvecaptcha"` in `config.json`
 
-Pricing: ~$0.80 per 1,000 solves. Average solve time: 11 seconds. Views per second will be lower.
+Pricing: ~$0.80 per 1,000 solves. Average solve time: 15-30 seconds. Views per second will be lower.
 
 ---
 
@@ -92,7 +101,6 @@ user-session-abc123:pass@host:port
 ### Recommended providers
 - **nullproxies.com** - $0.75/gb (10gb lasts a very long time for this tool)
 - **nodeproxies.xyz** - coming soon
-- **any higher quality ones for constant uptime** - (most recommended)
 
 Recommended settings: 10k proxies, sticky, EU-1 or EU-2, 1 minute rotation time.
 
