@@ -92,6 +92,7 @@ user-session-abc123:pass@host:port
 ### Recommended providers
 - **nullproxies.com** - $0.75/gb (10gb lasts a very long time for this tool)
 - **nodeproxies.xyz** - coming soon
+- **any higher quality ones for constant uptime** - (most recommended)
 
 Recommended settings: 10k proxies, sticky, EU-1 or EU-2, 1 minute rotation time.
 
