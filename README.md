@@ -51,11 +51,11 @@ Download from https://nodejs.org (LTS) if not installed.
 
 ### Capsolver (recommended)
 1. Go to https://capsolver.com
-2. Sign up and add balance ($2-5 is plenty to start)
+2. Sign up and add balance
 3. Go to Dashboard and copy your API key
 4. Paste it into `config.json` under `capsolver_api_key`
 
-Pricing: ~$1.20 per 1,000 solves. Average solve time: 5-10 seconds.
+Pricing: ~$1.20 per 1,000 solves. Average solve time: 3-7 seconds.
 
 ### SolveCaptcha (alternative)
 1. Go to https://solvecaptcha.com
@@ -63,7 +63,7 @@ Pricing: ~$1.20 per 1,000 solves. Average solve time: 5-10 seconds.
 3. Copy your API key into `config.json` under `solvecaptcha_api_key`
 4. Set `"solver": "solvecaptcha"` in `config.json`
 
-Pricing: ~$0.80 per 1,000 solves. Average solve time: 15-30 seconds. Views per second will be lower.
+Pricing: ~$0.80 per 1,000 solves. Average solve time: 11 seconds. Views per second will be lower.
 
 ---
 
